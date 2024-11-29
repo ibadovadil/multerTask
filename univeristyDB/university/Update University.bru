@@ -1,0 +1,18 @@
+meta {
+  name: Update University
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:3001/university/6741c6814a2ac0afa866fcba
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "bdu",
+      "adress": "Baku"
+  }
+}

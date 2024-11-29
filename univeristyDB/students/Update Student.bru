@@ -1,0 +1,25 @@
+meta {
+  name: Update Student
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:3001/student/6742121060023f378dd41334
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Elon",
+    "surname": "Musk",
+    "age": 51,
+    "university": {
+      "name": "BDU"
+    },
+    "faculty": {
+      "name": "IT"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+meta {
+  name: Create
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3001/student
+  body: multipartForm
+  auth: none
+}
+
+body:multipart-form {
+  name: 1
+  surname: 1
+  age: 1
+  university: 6742110ddd901dd795666cf1
+  faculty: 6742111fdd901dd795666cf4
+  avatar: @file(C:\Users\adili\Desktop\imgs\A7402720-2048x1365-1-391x.webp)
+}
