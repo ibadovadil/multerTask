@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 const connectdb = async () => {
-    await mongoose.connect("mongodb+srv://adilibadov:salamAleykum@university.6okyz.mongodb.net/?retryWrites=true&w=majority&appName=university");
+    await mongoose.connect("");
     console.log("Database connected successfully");
 
 };
